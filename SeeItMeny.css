@@ -1,0 +1,352 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    color: rgb(208, 237, 247)
+}
+
+.Meny-body{
+    background-color: rgb(208, 237, 247);
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+   padding: 30px 10%;
+
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+.logo{
+    cursor: pointer;
+    float: left;
+    
+}
+
+.rightbar{
+    list-style: none;
+    float: right;
+}
+
+.rightbar li{
+    display: inline-block;
+    padding: 0px 17px;
+    
+    
+}
+
+.rightbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+    transition: all 0.3s ease 0s;
+
+}
+
+.rightbar a:hover{
+    color: red;
+}
+
+.rightbar nav{
+    float: right;
+}
+
+
+
+
+/*.Meny-bar a{
+    margin-top: 20%;
+    margin-left: 40%;
+    list-style: none;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 60px;
+    color: black;
+    display: block;
+    transition: all 0.3s ease 0s;
+}   
+
+.Meny-bar ul li{
+    list-style: none;
+    padding: 3px;
+}
+
+.Meny-bar ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    transition: all 0.8s ease 0s;
+    padding-top: 3px;
+    
+
+}*/
+
+.Meny-bar{
+    margin-top: 1%;
+    margin-left: 20%;
+
+}
+
+.Meny-bar ul li{
+    padding: 1%;
+    list-style: none;
+
+}
+
+.Meny-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.rightbar{
+    float: right;
+}
+
+
+
+/* En liten HOVER animasjon på nav baren */
+
+.Meny-bar ul li a:hover{
+    text-decoration: underline;
+}
+
+/*Responsive koder*/
+
+@media only screen and (max-width: 676px){
+
+
+    header{
+        margin-bottom: 0.01px;
+        padding-bottom: 0.01%;
+    }
+
+    .container{
+        width: 100%;
+        padding-bottom: 0.1px;
+        margin-bottom: 1px;
+    }
+    img{
+        width: 60px;
+    }
+
+    .Meny-bar{
+        font-size: 20px;
+    }
+
+    .Meny-bar ul li{
+        margin-top: 1%;
+        padding: 2%;
+        list-style: none;
+    
+    
+    }
+
+    .rightbar{
+        margin-top: 0.1%;
+        text-align: center;
+        width: 100%;
+        padding: 8%;
+        padding-top: 2%;
+    }
+
+    .rightbar li{
+        text-align: center;
+        display: inline-block;
+        padding: 10px 12px;
+    }
+
+    .rightbar ul{
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 500px){
+
+    heading /* HUSK DETTE!!*/
+
+    img{
+        width: 60px;
+    }
+
+    .Meny-bar ul li{
+        padding: 4%;
+        list-style: none;
+    
+    }
+
+    .rightbar{
+        margin-top: 10%;
+        text-align: center;
+        margin-right: 16%;
+    }
+
+    .rightbar ul{
+        text-align: center;
+    }
+
+
+.Meny-bar{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+
+.Meny-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+}
+
+@media only screen and (max-width: 385px){
+
+    header{
+        padding-bottom: 3px;
+    }
+
+
+    .container{
+        width: 100%;
+    }
+    img{
+        width: 60px;
+    }
+
+    .Meny-bar{
+        font-size: 20px;
+    }
+
+    .Meny-bar ul li{
+        margin-top: 1%;
+        padding: 5%;
+        list-style: none;
+    
+    
+    }
+
+    .rightbar{
+        margin-top: 5%;
+        text-align: center;
+        width: 100%;
+        padding: 10%;
+        padding-bottom: 3%;
+    }
+
+    .rightbar li{
+        display: inline-block;
+        padding: 10px 12px;
+    }
+}
+
+@media only screen and (max-width: 325px){
+
+    header{
+        padding-bottom: 3px;
+    }
+
+    .container{
+        width: 100%;
+    }
+    img{
+        width: 60px;
+    }
+
+    .Meny-bar{
+        font-size: 20px;
+    }
+
+    .Meny-bar ul li{
+        margin-top: 0.2%;
+        padding: 3%;
+        list-style: none;
+    
+    
+    }
+
+    .rightbar{
+        margin-top: 5%;
+        text-align: center;
+        width: 100%;
+        padding: 10%;
+    }
+
+    .rightbar li{
+        display: inline-block;
+        padding: 10px 12px;
+        padding-bottom: 0.001px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 291px){
+    img{
+        width: 100px;
+        padding: 1px;
+    }
+
+    .Meny-bar{
+        margin-top: 1%;
+        margin-left: 20%;
+    }
+    
+    .Meny-bar ul li{
+        padding: 10%;
+        list-style: none;
+    
+    }
+    
+    .Meny-bar ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .Meny-bar ul li{
+        
+        
+        list-style: none;
+    
+    }
+
+    .rightbar{
+        margin-top: 20%;
+        text-align: center;
+        width: 100%;
+        /*padding: 10%; */
+    }
+
+    .rightbar li{
+        display: inline-block;
+        padding: 2px 5px;
+    }
+}
+
