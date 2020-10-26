@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+a link{
+    text-decoration: none;
+}
+
+
+a:hover{
+    opacity: 75%;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 4px 8px;
+    letter-spacing: 3px;    
+}
+
+
+.intro-container{
+    width: 100%;
+    margin: auto;
+    min-height: 615px;
+    position: relative;
+    background-color: black;
+}
+
+
+.background{
+    opacity: 90%;
+    filter: blur(5px);
+    height: 615px;
+}
+
+.introduction{
+    position: absolute;
+    top: 18vh;
+    left: 18vh;
+    line-height: 1.8;
+}
+
+
+h1{
+font-size: 4vw;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+text-shadow: 1px 1px 2px black;
+letter-spacing: 3px;
+}
+
+.introductionParagraph{
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+h2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    background-image: linear-gradient(to left, #ab0b19 , #df182d);
+    min-height: 10vh;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+
+.studieContainer{
+    line-height: 1.8;
+    top: 20vh;
+}
+
+
+.Studynames{
+    text-align: center;
+    list-style: none;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.dropshadow{
+    box-shadow: 0px 5px 5px;
+}
+
