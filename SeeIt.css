@@ -162,5 +162,19 @@ h3{
     text-decoration: underline;
 }
 
+.footerContainer{
+    background-color: #d83434;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    min-height: 12vh;
+}
+
+p{
+    font-size: 1vw;
+}
+
 
 
