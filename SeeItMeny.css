@@ -4,7 +4,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     padding: 0;
-    color: rgb(208, 237, 247)
 }
 
 .Meny-body{
@@ -26,7 +25,7 @@ header{
     width: 90%;
     margin: 0 auto;
 }
-img{
+.container img{
     border-radius: 50%;
     width: 100px;
 
@@ -38,64 +37,34 @@ img{
     
 }
 
+
 .rightbar{
-    list-style: none;
     float: right;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+    height: 60px;
+    width: 500px;
+
 }
 
-.rightbar li{
+.closing-icon > *{
     display: inline-block;
-    padding: 0px 17px; 
-}
-
-.rightbar a{
-    text-decoration: none;
-    color: black;
+    height: 60px;
+    width: 50px;
     font-weight: bold;
-    font-size: 1.8vw;
-    transition: all 0.3s ease 0s;
-}
-
-.rightbar a:hover{
-    color: red;
-}
-
-.rightbar nav{
-    float: right;
-}
-
-
-
-
-/*.Meny-bar a{
-    margin-top: 20%;
-    margin-left: 40%;
-    list-style: none;
-    padding: 3px;
-    text-decoration: none;
-    font-size: 60px;
+    font-size: 20px;
     color: black;
-    display: block;
-    transition: all 0.3s ease 0s;
-}   
-
-.Meny-bar ul li{
-    list-style: none;
-    padding: 3px;
 }
 
-.Meny-bar ul li a{
-    list-style: none;
+.closing-icon a{
     text-decoration: none;
-    font-size: 10px;
-    font-weight: bold;
     color: black;
-    transition: all 0.8s ease 0s;
-    padding-top: 3px;
-    
+}
 
-}*/
+
+
+
+
+
 
 .Meny-bar{
     margin-top: 1%;
@@ -130,6 +99,7 @@ img{
 
 .Meny-bar ul li a:hover{
     opacity: 60%;
+    text-decoration: underline;
 }
 
 /*Responsive koder*/
