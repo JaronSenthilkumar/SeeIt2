@@ -13,7 +13,7 @@ a:visited{
 }
 
 
-a:hover{
+.navbar a:hover{
     opacity: 65%;
     text-decoration: underline;
 }
@@ -94,7 +94,7 @@ h2{
 }
 
 
-.studieContainer{
+.studiesContainer{
     line-height: 1.8;
     top: 20vh;
 }
@@ -116,5 +116,29 @@ h2{
 
 .dropshadow{
     box-shadow: 0px 5px 5px;
+}
+
+h3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    background-image: linear-gradient(to left, #ab0b19 , #df182d);
+    min-height: 10vh;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.news{
+    text-align: center;
+    list-style: none;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;   
 }
 
