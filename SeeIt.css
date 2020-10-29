@@ -13,14 +13,9 @@ a:visited{
 }
 
 
-a link{
-    text-decoration: none;
-    color: black;
-}
-
-
-a:hover{
+.navbar a:hover{
     opacity: 65%;
+    text-decoration: underline;
 }
 
 
@@ -35,6 +30,11 @@ a:hover{
     color: black;
     box-shadow: 0px 4px 8px;
     letter-spacing: 3px;    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -94,18 +94,27 @@ h2{
 }
 
 
-.studieContainer{
+.studiesContainer{
     line-height: 1.8;
     top: 20vh;
 }
 
 
 .Studynames{
-    text-decoration: none;  
     text-align: center;
     list-style: none;
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;   
+}
+
+.Studynames a:hover{
+    opacity: 65%;
+    text-decoration: underline;
+}
+
+.Studynames a{
+    text-decoration: none;
     color: black;
 }
 
@@ -113,4 +122,59 @@ h2{
 .dropshadow{
     box-shadow: 0px 5px 5px;
 }
+
+.newsContainer{
+    line-height: 1.8;
+    top: 20vh;
+}
+
+h3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    background-image: linear-gradient(to left, #ab0b19 , #df182d);
+    min-height: 10vh;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.news{
+    text-align: center;
+    list-style: none;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;   
+}
+
+.news a{
+    text-decoration: none; 
+    color: black;
+}
+
+.news a:hover{
+    opacity: 65%;
+    text-decoration: underline;
+}
+
+.footerContainer{
+    background-color: #d83434;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    min-height: 12vh;
+}
+
+p{
+    font-size: 1vw;
+}
+
+
 
