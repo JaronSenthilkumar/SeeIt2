@@ -7,29 +7,53 @@
         <title>University of Advanding Technology</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="SeeIt.css">
+        <link rel="stylesheet" href="SeeItPrøve.css">
     </head>
 
-    <STYLE>A {text-decoration: none;} </STYLE>
-    <body>
+    <body class="startside">
+
+       
 
         <!--Her er navigasjonsbaren som er på toppen av siden-->
-        <div class="navbar">
-            <a href="SeeIt.html">
-            <img class="UATLOGO" src="uat-logo.png" width="125px" height="125px" style="max-width: 100%;height: auto;">
+        <nav class="navbar">
+            <div class="logo">
+            <a href="index.html">
+            <img class="UATLOGO" src="uat-logo.png">
             </a>
-            <a href="#studieslink"><b>STUDIES</b></a>
-            <a href="Meny.html"><B>MENU</B></a>
-            <a href="Meny.html">
-              <img class="MENUIKON" src="HAMBURGER MENU IKON.png" width="50px" height="50px" style="max-width: 100%;height: auto;">
-            </a>
-          </div>
+
+            </div>  
+
+            <ul>
+
+            <li><a href="#studieslink"><b>STUDIES</b></a> </li>
+            
+            
+            <li><a href="Meny.html"><B>MENU</B></a> </li>
+            
+
+          
+
+            </ul>
+
         
+
+        </nav>
+
+
+         
+
+
+            <!--<a href="Meny.html">
+              <img class="MENUIKON" src="HAMBURGER MENU IKON.png">
+            </a>-->
+          
+
+       
         
           <!--Her er det som kommer under navigasjonsbaren, et bilde med tekst-->
         <div class="intro-container">
         <div class="Image-container">
-            <img class="background" src="bakgrunn.jpg" alt="Tech" style="width: 100%;" style="height: 50%;">
+            <img class="background" src="bakgrunn.jpg">
         </div>  
         <div class="introduction">
             <h1>WELCOME TO UAT</h1>
@@ -40,40 +64,91 @@
 
         <!--Her kommer listen over de forskjellige studiene-->
         <div class="studiesContainer">
+            <div class="studieslink">
             <h2 id="studieslink">STUDIES</h2>
-            <ul class="Studynames">
-                <li><a href="#">BUSINESS & INNOVATION</a></li>
+            </div>
+
+
+
+          <ul class="Studynames">
+
+            <section class="parent-1">
+              <section class="child">
+                <a href="#">
+                  <li>BUSINESS & INNOVATION</li>
                 <img class="dropshadow" src="studiesBox.png">
-                <li><a href="#">CYBER SECURITY</a></li>
-                <img class="dropshadow" src="studiesBox.png">
-                <li><a href="#">GAME STUDIES</a></li>
-                <img class="dropshadow" src="studiesBox.png">
-                <li><a href="#">CREATION & SIMULATION</a></li>
-                <img class="dropshadow" src="studiesBox.png">
-                <li><a href="#">DIGITAL ARTS</a></li>
-                <img class="dropshadow" src="studiesBox.png">
-                <li><a href="#">SOFTWARE ENGINEERING</a></li>
-                <img class="dropshadow" src="studiesBox.png">    
+                </a>
+              </section>
+
+            
+
+              <section class="child">
+                <a href="#">
+                    <li>CYBER SECURITY</li>
+                    <img class="dropshadow" src="studiesBox.png">
+                </a>
+              </section>
+
+            </section>
+
+            <section class="parent-2">
+
+            
+
+              <section class="child">
+                <a href="#">
+                    <li>GAME STUDIES</li>
+                    <img class="dropshadow" src="studiesBox.png">
+                </a>
+              </section>
+
+           
+
+           
+              <selection class="child">
+
+                <a href="#">
+                    <li>CREATION & SIMULATION</li>
+                    <img class="dropshadow" src="studiesBox.png">
+                </a>
+              </selection>
+            </section>
+
+            <section class="parent-3">
+
+              <selection class="child">
+                <a href="#">
+                    <li>DIGITAL ARTS</li>
+                    <img class="dropshadow" src="studiesBox.png">
+                </a>
+              </selection>
+
+              <selection class="child">
+                <a href="#">
+                    <li>SOFTWARE ENGINEERING</li>
+                    <img class="dropshadow" src="studiesBox.png">
+                </a>
+              </selection>    
+            </section>
             </ul>
         </div>
-        
         
         <!--Her kommer oversikten over nyheter
         <div class="newsContainer">
             <h3 id="newsLink">NEWS</h3>
             <ul class="news">
                 <img class="dropshadow" src="newsBox.png">
-                <li><a href="#">UAT ALUM ERIN ALI IS PLAYING TO WIN</a></li>
+                <li></a>UAT ALUM ERIN ALI IS PLAYING TO WIN</a></li>
                 <img class="dropshadow" src="newsBox.png">
-                <li><a href="#">AN INTERVIEW WITH STEFANI JOHNSON,<br> DATA MANAGER AND CYBER STUDENT</a></li>
+                <li></a>AN INTERVIEW WITH STEFANI JOHNSON,<br> DATA MANAGER AND CYBER STUDENT</a></li>
                 <img class="dropshadow" src="newsBox.png">
-                <li><a href="#">UAT HOLDS VIRTUAL APP-IT-UP CONTEST</a></li>
+                <li></a>UAT HOLDS VIRTUAL APP-IT-UP CONTEST</a></li>
                 <img class="dropshadow" src="newsBox.png">
-                <li><a href="#">CCDC  PUTS UAT STUDENTS ON THE OFFENSE <br> AND THE DEFENSE</a></li>
+                <li></a>CCDC  PUTS UAT STUDENTS ON THE OFFENSE <br> AND THE DEFENSE</a></li>
                 <img class="dropshadow" src="newsBox.png">
-                <li><a href="#">CHARITY REFURBATHON CONTEST PROVIDES <br> MORE THAN 100 COMPUTERS FOR TITLE 1 SCHOOLS</a></li>
+                <li></a>CHARITY REFURBATHON CONTEST PROVIDES <br> MORE THAN 100 COMPUTERS FOR TITLE 1 SCHOOLS</a></li>
                 <img class="dropshadow" src="newsBox.png">
-                <li><a href="#">PROFESSOR AARON JONES ANSWERS THE QUESTIONS</a></li>   
+                <li></a>PROFESSOR AARON JONES ANSWERS THE QUESTIONS</a></li>   
             </ul>
         </div>
     -->

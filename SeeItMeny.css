@@ -8,6 +8,7 @@
 
 .Meny-body{
     background-color: white;
+    height: 100%;
 }
 
 
@@ -17,7 +18,8 @@ header{
     justify-content: space-between;
     width: 100%;
     align-items: center;
-   padding: 30px 10%;
+    /*padding-top: 3px;
+   padding: 30px 10%;*/
 
 }
 
@@ -27,11 +29,12 @@ header{
 }
 .container img{
     border-radius: 50%;
-    width: 100px;
+    width: 125px;
 
 }
 
 .logo{
+    margin-left: 35px;
     cursor: pointer;
     float: left;
     
@@ -40,19 +43,26 @@ header{
 
 .rightbar{
     float: right;
-    margin-top: 1%;
-    height: 60px;
-    width: 500px;
+    margin-top: 5%;
+    width: 150px;
+    transition: 0.5s;
 
+}
+
+.rightbar nav{
+    width: 185px;
 }
 
 .closing-icon > *{
     display: inline-block;
-    height: 60px;
-    width: 50px;
+    /*height: 70px;
+    width: 70px;*/
+    
     font-weight: bold;
     font-size: 20px;
     color: black;
+    padding: 8%;
+
 }
 
 .closing-icon a{
@@ -63,11 +73,24 @@ header{
 
 
 
+.rightbar:hover{                                            /* HOVER ANIMASJON */
+    
+    
+    padding: 0.1%;
+    border-left: solid black;
+    border-bottom: solid black;
+
+    border-radius: 15px 50px 30px 5px;
+    background-color:rgb(197, 255, 197);
+}
+
+
 
 
 
 .Meny-bar{
-    margin-top: 1%;
+    top: 30%;
+    margin-top: 10%;
     margin-left: 13%;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -104,12 +127,26 @@ header{
 
 /*Responsive koder*/
 
+@media only screen and (max-width:870px){
+    
+    .rightbar{
+        width: 200px;
+    }
+}
+
 @media only screen and (max-width: 676px){
 
 
     header{
         margin-bottom: 0.01px;
         padding-bottom: 0.01%;
+    }
+
+    .logo{
+        margin-left: 70px;
+        cursor: pointer;
+        float: left;
+        
     }
 
     .container{
@@ -134,23 +171,14 @@ header{
     }
 
     .rightbar{
-        margin-top: 0.1%;
+        margin-top: 7%;
+        margin-right: 4%;
         text-align: center;
-        width: 100%;
-        padding: 8%;
-        padding-top: 2%;
+        width: 100px;
+        
     }
 
-    .rightbar li{
-        text-align: center;
-        display: inline-block;
-        padding: 10px 12px;
-    }
 
-    .rightbar ul{
-        text-align: center;
-        display: inline-block;
-    }
 }
 
 
@@ -171,14 +199,14 @@ header{
     }
 
     .rightbar{
-        margin-top: 10%;
+        margin-top: 7%;
+        margin-right: 4%;
         text-align: center;
-        margin-right: 16%;
+        width: 100px;
+        
     }
 
-    .rightbar ul{
-        text-align: center;
-    }
+ 
 
 
 .Meny-bar{
@@ -223,17 +251,16 @@ header{
     }
 
     .rightbar{
-        margin-top: 5%;
+        margin-top: 0.1%;
         text-align: center;
-        width: 100%;
-        padding: 10%;
-        padding-bottom: 3%;
+        width: 100px;
+        
     }
 
-    .rightbar li{
-        display: inline-block;
-        padding: 10px 12px;
+    .rightbar a{
+        margin-right: 0.0001px;
     }
+
 }
 
 @media only screen and (max-width: 325px){
@@ -262,10 +289,10 @@ header{
     }
 
     .rightbar{
-        margin-top: 5%;
+        margin-top: 0.1%;
         text-align: center;
-        width: 100%;
-        padding: 10%;
+        width: 100px;
+        
     }
 
     .rightbar li{
