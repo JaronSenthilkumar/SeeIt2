@@ -51,8 +51,8 @@ a:visited{
 
 
 .background{
-    opacity: 90%;
-    filter: blur(5px);
+    opacity: 100%;
+    
    height: 615px;
 }
 
