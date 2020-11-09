@@ -7,7 +7,7 @@
 }
 
 .Meny-body{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 100%;
 }
 
@@ -32,11 +32,18 @@ header{
 .container img{
     border-radius: 50%;
     width: 125px;
+    
 }
+
 
 .closingIcon{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20pt;
+    margin-left: 40%;
+}
+
+.closingIcon :hover{
+    text-decoration: underline;
 }
 
 .closingIcon a{
@@ -47,7 +54,7 @@ header{
 }
 
 .logo{
-    margin-left: 35px;
+    margin-left: 185px;
     cursor: pointer;
     float: left;
 }

@@ -76,10 +76,12 @@
 
 
 .introduction{
-    position: absolute;
-    top: 30%;
+    position: sticky;
+    top: 90%;
     left: 17%;
     line-height: 1.8;
+    margin-top: -400px;
+    margin-left: 60px;
 
 }
 
@@ -112,7 +114,7 @@ h1{
     }
 
 .studieslink{
-    margin-top: 20px;
+    margin-top: 150px;
     padding-left: 15%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -212,21 +214,39 @@ h1{
 
     .child{
         font-size: 20px;
-        padding: 5%;
-        margin: 5%;
+        padding: 4%;
+        margin: 4%;
         list-style: none;
         transition: 0.7s;
+        text-align: left;
     }
     .child:hover{
         border: hidden;
         text-decoration: underline;
-        color: rgb(72, 119, 2);
+        background-color: white;
 
+    }
+
+    .child a:hover{
+        color: black;
+    }
+
+    .footerContainer{
+        margin-top: 5%;
     }
 }
 
 
 @media only screen and (max-width: 827px){
+
+
+     .introduction{
+        width: 500px;
+        position: sticky;
+        margin-top: -450px;
+        margin-left: 1px;
+        
+    }
     .Studynames{
         margin-left: 36%;
     }
@@ -249,10 +269,12 @@ h1{
 
     h1{
         font-size: 30px;
+        
     }
 
     .studieslink{
         width: 822px;
+        margin-top: 80px;
     }
 
     .footerContainer{
@@ -282,21 +304,49 @@ h1{
         width: 822px;
     }
 
+    .introduction{
+        width: 500px;
+        position: sticky;
+        margin-top: -100px;
+        margin-left: 1px;
+        
+    }
+
+    .introductionParagraph{
+        
+        color: white;
+    }
+
     h1{
         font-size: 30px;
+        margin-top: -400px;
+    }
+    
+    .studieslink{
+        margin-top: 40px;
     }
 }
 
 @media only screen and (max-width: 685px){
 
-    .introductionParagraph{
-        width: 600px;
+    .introduction{
+        margin-top: -60px;
+        width: 500px;
     }
+
+    .navbar li{
+        padding: 5px;
+    }
+
+    
+
 
 
 }
 
 @media only screen and (max-width:556px){
+
+    
     .Studynames{
         margin-left: 47%;
     }
@@ -304,10 +354,22 @@ h1{
     .footerContainer{
         margin-top: 3%;
     }
+
+    .studiesContainer{
+        margin-right: 250px;
+    }
 }
 
 @media only screen and (max-width: 370px){
 
+    /*.intro-container{
+        width: 1000px;
+    }
+
+    .introduction{
+        width: 1000px;
+    }
+*/
 
     .Studynames{
         margin-left: 70%;
@@ -321,6 +383,7 @@ h1{
 }
 
 @media only screen and (max-width: 322px){
+   
 
     .Studynames{
         margin-left: 60%;
@@ -340,7 +403,7 @@ h1{
     }
 
     .intro-container{
-        width: 800px;
+        width: 900px;
     }
 
     h1{
@@ -348,11 +411,14 @@ h1{
     }
 
     .introduction{
-        position: absolute;
+
+        margin-top: -400px;
+        
+        position: sticky;
         top: 24%;
         left: 17%;
         line-height: 1.8;
-        width: 400px;
+        width: 500px;
     
     }
 
@@ -361,7 +427,7 @@ h1{
         font-size: 24px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
-        color: white;
+        color:white;
         text-shadow: 1px 1px 2px black;
         transition: 0.3s;
         
@@ -369,7 +435,12 @@ h1{
     }
 
     .studieslink{
-        width: 800px;
+        margin-top: 200px;
+        width: 900px;
+    }
+
+    .Studynames{
+        margin-left: 80px;
     }
 
     .parent-1{
@@ -377,5 +448,35 @@ h1{
     }
 
    
+}
+
+@media only screen and (max-width: 140px){
+    .introduction{
+        width: 400px;
+        padding-right: 10px;
+    }
+
+    .navbar{
+        height: 5%;
+    }
+
+    .logo{
+        margin-right: 2%;
+    }
+
+    .logo img{
+        width: 40%;
+    
+
+    }
+    .studieslink{
+        margin-top: 110px;
+    }
+
+    .navbar li{
+        padding: 1px;
+    }
+
+
 }
 
