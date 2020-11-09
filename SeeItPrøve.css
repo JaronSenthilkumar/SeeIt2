@@ -31,8 +31,7 @@
 .UATLOGO{
     margin-left: 35px;
     cursor: pointer;
-    float: left;
-    
+    float: left;   
 }
 
 .navbar{   
@@ -85,7 +84,7 @@
 
 }
 
-h1{
+.heading1{
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -194,6 +193,10 @@ h1{
     letter-spacing: 1px;
 }
 
+.study1Container{
+    
+}
+
 @media only screen and (max-width: 868px){
 
     .introduction{
@@ -278,7 +281,7 @@ h1{
         width: 822px;
     }
 
-    h1{
+    .heading1{
         font-size: 30px;
         
     }
@@ -328,7 +331,7 @@ h1{
         color:white;
     }
 
-    h1{
+    .heading1{
         font-size: 30px;
         margin-top: -400px;
     }
@@ -367,7 +370,7 @@ h1{
         margin-bottom: 70px;
     }
 
-    h1{
+    .heading1{
         margin-top: -440px;
 
     }
@@ -437,20 +440,18 @@ h1{
         width: 900px;
     }
 
-    h1{
+    .heading1{
         font-size: 30px;
     }
 
     .introduction{
 
         margin-top: -400px;
-        
         position: sticky;
         top: 24%;
         left: 17%;
         line-height: 1.8;
         width: 500px;
-    
     }
 
 
