@@ -395,13 +395,19 @@ h1{
 
 @media only screen and (max-width: 370px){
 
+    body{
+        width: 370px;
+    }
+
    
     .Studynames{
         margin-left: 70%;
     }
 
     .footerContainer{
+        width: 900px;
         margin-top: 6%;
+
     }
 
 
@@ -447,6 +453,8 @@ h1{
     
     }
 
+
+
     .introductionParagraph{
         
         font-size: 24px;
@@ -460,7 +468,7 @@ h1{
     }
 
     .studieslink{
-        margin-top: 200px;
+        margin-top: 220px;
         width: 900px;
     }
 
