@@ -57,12 +57,6 @@
 .navbar a:hover{
     text-decoration: underline;
     color: rgb(72, 119, 2);
-<<<<<<< Updated upstream
-=======
-    
-    
-
->>>>>>> Stashed changes
 }
 
 
@@ -262,6 +256,11 @@
 @media only screen and (max-width: 827px){
 
 
+    .navbar{
+        width: 850px;
+    }
+
+
      .introduction{
         width: 500px;
         position: sticky;
@@ -410,12 +409,16 @@
 
 @media only screen and (max-width: 370px){
 
+    .navbar{
+        width: 1000px;
+    }
+
     body{
         width: 370px;
     }
 
     .intro-container{
-        width: 900px;
+        width: 2000px;
     }
 
    
