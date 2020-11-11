@@ -375,7 +375,7 @@
 
 }
 
-@media only screen and (max-width:556px){
+@media only screen and (max-width:558px){
 
     .introduction{
         width: 390px;
@@ -391,6 +391,10 @@
         color: white;
         font-size: 27px; 
 
+    }
+
+    .names{
+        font-size: 12pt;
     }
 
    
