@@ -295,7 +295,7 @@
     }
 
     .studieslink{
-        width: 822px;
+        width: 922px;
         margin-top: 80px;
     }
 
@@ -322,9 +322,7 @@
         width: 100%;
     }
 
-    .intro-container{
-        width: 822px;
-    }
+ 
 
     .introduction{
         width: 500px;
@@ -345,7 +343,8 @@
     }
     
     .studieslink{
-        margin-top: 40px;
+        
+        margin-top: 40px; 
     }
 
     .footerContainer p{
@@ -416,7 +415,7 @@
     }
 
     .intro-container{
-        width: 900px;
+        width: 550px;
     }
 
    
@@ -431,7 +430,7 @@
     }
 
     .studieslink{
-        width: 900px;
+        width: 550px;
     }
 
 
@@ -457,9 +456,7 @@
         width: 100%;
     }
 
-    .intro-container{
-        width: 900px;
-    }
+   
 
     .heading1{
         font-size: 30px;
@@ -491,7 +488,7 @@
 
     .studieslink{
         margin-top: 220px;
-        width: 900px;
+        
     }
 
     .Studynames{
