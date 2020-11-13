@@ -201,6 +201,10 @@ h1{
     
     }
 
+    .studieslink{
+        margin-bottom: 90px;
+    }
+
     .Studynames{
         margin-left: 35%;
     }
@@ -286,6 +290,7 @@ h1{
     .studieslink{
         width: 822px;
         margin-top: 80px;
+        margin-bottom: 100px;
     }
 
     .footerContainer{
@@ -299,17 +304,7 @@ h1{
     .Studynames{
         margin-left: 40%;
     }
-    .startside{
-        width: 100%;
-    }
 
-    .background{
-        width: 100%;
-    }
-
-    .image-container{
-        width: 100%;
-    }
 
     .intro-container{
         width: 822px;
@@ -317,10 +312,18 @@ h1{
 
     .introduction{
         width: 500px;
-        position: sticky;
-        margin-top: -100px;
-        margin-left: 1px;
+
+        top: 0;
         
+       /* position: sticky; */
+        
+       /* margin-left: 1px;*/
+        
+    }
+
+    .heading1{
+        margin-top: -450px;
+
     }
 
     .introductionParagraph{
@@ -330,12 +333,13 @@ h1{
 
     h1{
         font-size: 30px;
-        margin-top: -400px;
+    
+        /*margin-top: -400px; */
     }
     
-    .studieslink{
+    /*.studieslink{
         margin-top: 40px;
-    }
+    } */
 
     .footerContainer p{
         
@@ -367,13 +371,36 @@ h1{
         margin-bottom: 70px;
     }
 
-    h1{
-        margin-top: -440px;
-
+    .intro-container{
+        width: 700px;
     }
 
+    .navbar{
+        width: 700px;
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    .navbar ul{
+        margin-left: -80px;
+    }
+
+    .logo{
+        
+        margin-right: -250px;
+        margin-left: -200px;
+    }
+
+
+
+    .studieslink{
+        width: 700px;
+    }
+
+
+
     .introductionParagraph{
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 27px; 
 
     }
@@ -381,11 +408,12 @@ h1{
    
     
     .Studynames{
-        margin-left: 47%;
+        margin-left: 100px;
     }
 
     .footerContainer{
         margin-top: 3%;
+        width: 700px;
     }
 
     .studiesContainer{
@@ -400,22 +428,27 @@ h1{
     }
 
     .intro-container{
-        width: 900px;
+        width: 600px;
     }
 
    
     .Studynames{
-        margin-left: 70%;
+        margin-left: 150px;
     }
 
     .footerContainer{
-        width: 900px;
+        width: 600px;
         margin-top: 6%;
 
     }
 
     .studieslink{
-        width: 900px;
+        width: 600px;
+        margin-bottom: 80px;
+    }
+
+    .heading2{
+        padding-left: 50px;
     }
 
 
@@ -427,10 +460,10 @@ h1{
    
 
     .Studynames{
-        margin-left: 60%;
+        margin-left: 115px;
     }
 
-
+/*
     .startside{
         width: 100%;
     }
@@ -488,7 +521,7 @@ h1{
 
     .parent-1{
         display: block;
-    }
+    } */
 
    
 }

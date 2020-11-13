@@ -1,0 +1,244 @@
+.BusinessAndInnovation{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0%;
+
+}
+
+
+.logo img{
+    border-radius: 50%;
+    width: 125px;
+
+}
+
+.UATLOGO{
+    margin-left: 35px;
+    cursor: pointer;
+    float: left;
+    
+}
+
+.navbar{   
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 124px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 4px 8px;
+    letter-spacing: 3px;    
+    opacity: 100%;
+    z-index: 999;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-flex;
+    padding: 0px 40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: rgb(72, 119, 2);
+
+}
+
+    
+.studyContainer{
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-bottom: 5%;
+    text-align: center;
+    line-height: 2;
+}
+
+.heading3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32pt;
+}
+
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.placeholderStudies{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    
+} 
+
+.footerContainer{
+    background-color: #d83434;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.footerContainer p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+@media only screen and (max-width: 805px){
+
+
+   
+    .placeholderStudies{
+        width: 500px;
+    }
+
+
+    .footerContainer{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 674px){
+
+    .navbar{
+        width: 674px;
+        right: 0;
+    }
+
+    .footerContainer{
+        width: 674px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 644px){
+
+    .navbar{
+        font-size: 20px;
+        top: 0;
+        left: 0;
+        width: 644px;
+        right: 0;
+
+    }
+
+    .placeholderStudies{
+        width: 450px;
+    }
+
+    .BusinessAndInnovation{
+        width: 500px;
+    }
+
+    .navbar li{
+        padding: 20px;
+    }
+
+    .navbar ul{
+        margin-left: -80px;
+    }
+
+    .logo{
+        
+        margin-right: -150px;
+        margin-left: -100px;
+    }
+
+    .heading3{
+        display: inline-flex;
+        align-items: center;
+        margin-left: 90px;
+    }
+
+    .paragraph{
+        margin-left: 90px;
+    }
+
+    .footerContainer{
+        width: 644px;
+    }
+
+
+}
+
+@media only screen and (max-width: 544px){
+
+    .navbar{
+      
+        font-size: 20px;
+        top: 0;
+        left: 0;
+        width: 544px;
+        right: 0;
+
+    }
+
+    .BusinessAndInnovation{
+        width: 400px;
+    
+    }
+
+    .navbar li{
+        padding: 5px;
+    }
+
+    .navbar ul{
+        margin-left: -80px;
+    }
+
+    .logo{
+        
+        margin-right: -150px;
+        margin-left: -100px;
+    }
+
+    .placeholderStudies{
+        width: 300px;
+        margin-left: 60px;
+    }
+
+    .footerContainer{
+        width: 544px;
+    }
+
+
+}
+
